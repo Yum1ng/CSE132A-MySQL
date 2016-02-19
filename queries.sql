@@ -3,7 +3,7 @@
   cs132ack*/
 .mode columns
 .headers on
-/*
+
 create table sailor 
 	(sname char primary key,  
 	rating int);
@@ -44,7 +44,7 @@ insert into reservation values ('Bob', 'Bay', 'Monday', 9 , 12);
 insert into reservation values ('Andy', 'Bay', 'Wednesday', 9, 10);
 insert into reservation values ('Horatio', 'Marine', 'Tuesday', 15, 19);
 --insert into reservation values ('Bob', 'Marine', 'Tuesday', 15, 19);
-*/
+
 --1.b--
 SELECT * from sailor;
 SELECT * from boat;
